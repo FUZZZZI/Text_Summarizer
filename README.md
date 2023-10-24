@@ -6,4 +6,15 @@
 # ls
 # clear
 # code .
-#
+
+# git add .
+# git commit -m "folder structure added"
+# git push origin main
+
+# conda init powershell             # type in anaconda powershell
+
+# Create New virtual environment
+# conda create -n TextS python=3.8 -y  #-y means accept or yes
+# conda activate TextS
+
+# pip install -r requirements.txt
