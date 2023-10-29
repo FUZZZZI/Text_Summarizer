@@ -1,12 +1,12 @@
 transformers
 transformers[sentencepiece]
 datasets
-sacrebleu
+sacrebleu       #Evaluation metrics for text summarisation
 rouge_score
 py7zr
 pandas
 nltk
-tqdm
+tqdm        #to show code execution
 PyYAML
 matplotlib
 torch

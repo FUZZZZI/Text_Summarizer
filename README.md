@@ -1,20 +1,12 @@
-# Text_Summarizer
+# End to end Text-Summarizer-Project
 
-# Go to folder & Open Git bash -> type "git clone https://github.com/FUZZZZI/Text_Summarizer.git"
-# os.chdir(r"C:\Users\y0vwts9\OneDrive - Deere & Co\Y0VWTS9\Python\Deep_Learning\NLP\PWSKILLS\Text_Summarizer")
-# cd Text_Summarizer/
-# ls
-# clear
-# code .
 
-# git add .
-# git commit -m "folder structure added"
-# git push origin main
-
-# conda init powershell             # type in anaconda powershell
-
-# Create New virtual environment
-# conda create -n TextS python=3.8 -y  #-y means accept or yes
-# conda activate TextS
-
-# pip install -r requirements.txt
+## Project Workflows
+1. Update config.yaml
+2. Update params.yaml
+3. Update entity in src
+4. Update the configuration manager in src config folder
+5. Update components (data Ingestion, validation, transformation, model trainer)
+6. Update pipeline 
+7. Update main.py
+8. Update app.py
