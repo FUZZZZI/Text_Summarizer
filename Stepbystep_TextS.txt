@@ -24,3 +24,10 @@ Create logging file
 
 Project Workflow: in readme.md file
 
+# COmplete proejct implementation
+# Deployement:
+docker -> push to Elastic container registry (AWS) -> pull image -> run in EC2 instance
+CI/CD :: When push code in gtihub, it will automatically Deploy 
+CI/CD tool : github actions
+
+
