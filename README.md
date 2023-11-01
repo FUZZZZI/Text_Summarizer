@@ -76,7 +76,7 @@ Email: krishnaik06@gmail.com
 
 	2. Push your docker image to ECR
 
-	3. Launch Your EC2 
+	3. Launch Your EC2 (Virtual machine)
 
 	4. Pull Your image from ECR in EC2
 
@@ -98,7 +98,7 @@ Email: krishnaik06@gmail.com
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	#optinal        #Package manager update
 
 	sudo apt-get update -y
 
@@ -113,12 +113,17 @@ Email: krishnaik06@gmail.com
 	sudo usermod -aG docker ubuntu
 
 	newgrp docker
+
+    docker --version
 	
 # 6. Configure EC2 as self-hosted runner:
-    setting>actions>runner>new self hosted runner> choose os> then run command one by one
+    setting>actions>runner>new self hosted runner> choose os> then run command one by one in EC2 terminal
+    name of runner gp: Enter
+    name of runner: "self-hosted"
 
 
 # 7. Setup github secrets:
+Secrest and variables > Actions > New repository secret > Add one by one 
 
     AWS_ACCESS_KEY_ID=
 
@@ -129,3 +134,5 @@ Email: krishnaik06@gmail.com
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+    #Last two combined are in ECR URI
